@@ -1,0 +1,1834 @@
+fileFormatVersion: 2
+guid: 4ba9cfaf0793c40029a66cc05f0838d2
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 10k dice UI_0
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 1453
+        width: 1651
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 158ab79424eab47dc9a50cc79c36bc0b
+      internalID: -1432074422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10k dice UI_1
+      rect:
+        serializedVersion: 2
+        x: 1875
+        y: 1063
+        width: 431
+        height: 431
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aa075c68ab004ea8a38f3ff3b1a3694
+      internalID: -614747941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10k dice UI_2
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 1385
+        width: 36
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c992c528e1dc1431280e630fdc233216
+      internalID: -217639195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10k dice UI_3
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 1356
+        width: 99
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54490b100e7d84cdb88107f38fe6e31c
+      internalID: 47166678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10k dice UI_4
+      rect:
+        serializedVersion: 2
+        x: 1776
+        y: 1385
+        width: 37
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9a028c266b774441a0766bae26f58a4
+      internalID: -718535447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10k dice UI_5
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 911
+        width: 428
+        height: 427
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d2deff19681d4bfeb202810733139b4
+      internalID: 1525472434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10k dice UI_6
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 873
+        width: 505
+        height: 505
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1de9f7dc1b59f451a95878b1e4f19f6f
+      internalID: 1005759904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10k dice UI_7
+      rect:
+        serializedVersion: 2
+        x: 1241
+        y: 873
+        width: 505
+        height: 505
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0c0f7d591b6247d7be260b37d963f0b
+      internalID: -1843075646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10k dice UI_8
+      rect:
+        serializedVersion: 2
+        x: 1877
+        y: 1012
+        width: 36
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51bbde22e51b74b05a74dc6cb5c593f7
+      internalID: -1162719947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10k dice UI_9
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 912
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c721443e7e9664a80b5ca9648bf56ddc
+      internalID: 496171051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10k dice UI_10
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 571
+        width: 440
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75caa615c72dd45bfa59b0c6883b58fb
+      internalID: -904225732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10k dice UI_11
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 732
+        width: 55
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 594ba01bbcd8c46408bd50ac507018fd
+      internalID: -106355089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10k dice UI_12
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 771
+        width: 800
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e54c80215ce69466a9f2f89f0125aabc
+      internalID: 1668765833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10k dice UI_13
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 766
+        width: 57
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 135a084c353e5460e973a2c8c05d0a4b
+      internalID: -1338949724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10k dice UI_14
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 716
+        width: 800
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a108e03a591b94315aa04df5257c123e
+      internalID: -424349580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10k dice UI_15
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 601
+        width: 81
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa9bed8a9d3af44c3840d90fc465e72b
+      internalID: -853676303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10k dice UI_16
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 601
+        width: 80
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 616b4d730f4e04bcca9137553975d3fa
+      internalID: 1399094241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10k dice UI_17
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 602
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b66c00722d1e4244a5a2146ac70b6ff
+      internalID: 743587042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10k dice UI_18
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 601
+        width: 82
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 191f316ed7f704778b17634146e7d7bc
+      internalID: -428413732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10k dice UI_19
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 601
+        width: 80
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8cd133031a6b444dae378fa876074f6
+      internalID: -1773706460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10k dice UI_20
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 593
+        width: 134
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5e163306712a467eb0f7833d5baac7d
+      internalID: -1337277057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10k dice UI_21
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 593
+        width: 438
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba181d15c5fd34f08a255a47b2137ca4
+      internalID: -535261864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10k dice UI_22
+      rect:
+        serializedVersion: 2
+        x: 1706
+        y: 593
+        width: 134
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e970d6ad4bf00434fa055eb01d4b290b
+      internalID: 1061781040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10k dice UI_23
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 499
+        width: 134
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 015019b43219d4c5585ac24cedf5a2ab
+      internalID: -145055756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10k dice UI_24
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 538
+        width: 30
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5183f7c8f08e8444996223efa6808c29
+      internalID: -1070795271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10k dice UI_25
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 527
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b064c5fa8aa044f2c9dc926cf2df217b
+      internalID: -345827180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10k dice UI_26
+      rect:
+        serializedVersion: 2
+        x: 1706
+        y: 499
+        width: 134
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6287773e1801143ea8ca80712ca38ff6
+      internalID: 419926743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10k dice UI_27
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 493
+        width: 30
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d792ee6d0ab3d45ffb0ef7a50fd01b71
+      internalID: -1695288926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10k dice UI_28
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 482
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37434480fbda64cb6a0b9e2826519552
+      internalID: 1909448180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10k dice UI_29
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 350
+        width: 350
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfb0e8b3663034e00a7988787c35b032
+      internalID: 1123529904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10k dice UI_30
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 350
+        width: 350
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 037d20a2272454bbcaa28aac39d44b97
+      internalID: -73292883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10k dice UI_31
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 404
+        width: 134
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7555bf18f9f34a6eb7a32d528b14ac7
+      internalID: 2014092624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10k dice UI_32
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 445
+        width: 30
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26ce92e2529f04f3488f856ce1095149
+      internalID: -1824915979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10k dice UI_33
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 434
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63541b1de51794d1f8188e32a229fbfa
+      internalID: -1742956151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10k dice UI_34
+      rect:
+        serializedVersion: 2
+        x: 1706
+        y: 404
+        width: 134
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac3a76949c7eb4c50a9eef5dbc5b4020
+      internalID: 1443639848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10k dice UI_35
+      rect:
+        serializedVersion: 2
+        x: 2028
+        y: 362
+        width: 250
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc60b6dc057a94707a056a54110c798b
+      internalID: -212260242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10k dice UI_36
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 213
+        width: 350
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 380f7a8d624e34ffebeba193153860dc
+      internalID: -1358728634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10k dice UI_37
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 213
+        width: 350
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3441926455ac43a5b5837025ae04813
+      internalID: -437281716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10k dice UI_38
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 287
+        width: 351
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 676a9de48d64d40e1a9ec368c14a5b01
+      internalID: 1622185887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10k dice UI_39
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 231
+        width: 416
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff0dc8cbf7ae1439b9682f0ef5714f05
+      internalID: -1384830844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10k dice UI_40
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 209
+        width: 351
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22e0452b6b521411783d86382efacd30
+      internalID: -2075355075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10k dice UI_41
+      rect:
+        serializedVersion: 2
+        x: 2034
+        y: 249
+        width: 70
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2146afd6d22349e699d2fc14f1bc38f
+      internalID: 1312342709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10k dice UI_42
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 61
+        width: 350
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e0dc01953a164908844df2982d0757e
+      internalID: -1826623961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10k dice UI_43
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 61
+        width: 350
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d45fe513a6b774547916dcee47cd0696
+      internalID: 855588868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10k dice UI_44
+      rect:
+        serializedVersion: 2
+        x: 1317
+        y: 134
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afd5b1717705944ff9b630fc49fe2fc3
+      internalID: -1104850158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10k dice UI_45
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 145
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad855ef26981e409bba28c28b6b85477
+      internalID: -2126690264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10k dice UI_46
+      rect:
+        serializedVersion: 2
+        x: 1349
+        y: 139
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ec03dea3e0034e9b8234a9b5fef8aee
+      internalID: -194087293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10k dice UI_47
+      rect:
+        serializedVersion: 2
+        x: 1432
+        y: 134
+        width: 30
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2fad4defcc584683a823051f7d77ce0
+      internalID: 63002973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10k dice UI_48
+      rect:
+        serializedVersion: 2
+        x: 1537
+        y: 159
+        width: 36
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b9dc846d408444eaa0d22a2b55bad8c
+      internalID: -1451510781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10k dice UI_49
+      rect:
+        serializedVersion: 2
+        x: 1645
+        y: 136
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da42a8f61c8f04041a907bb0f05a3e2a
+      internalID: 625720634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10k dice UI_50
+      rect:
+        serializedVersion: 2
+        x: 1744
+        y: 129
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 451ba0795169b4638a9c0f19d0b79582
+      internalID: -1830303172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10k dice UI_51
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 149
+        width: 44
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbd77175fda4b45e39427000f4e173d6
+      internalID: 1228831340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10k dice UI_52
+      rect:
+        serializedVersion: 2
+        x: 1975
+        y: 153
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0830efc739ea24ed8a323e45dd0030d1
+      internalID: 1311200270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10k dice UI_53
+      rect:
+        serializedVersion: 2
+        x: 2069
+        y: 134
+        width: 49
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cf697839f1c4436d8c093bdf7c8e3fd
+      internalID: 2028674231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10k dice UI_54
+      rect:
+        serializedVersion: 2
+        x: 2191
+        y: 133
+        width: 43
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e6f39cd8348548e2b8f1d60aa48ab57
+      internalID: 547483425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10k dice UI_55
+      rect:
+        serializedVersion: 2
+        x: 1537
+        y: 149
+        width: 36
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 817677dbd4acd4473a27583efc55b288
+      internalID: 1519219557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10k dice UI_56
+      rect:
+        serializedVersion: 2
+        x: 1876
+        y: 134
+        width: 4
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5fd04404bc8848dfa0ea92112cce241
+      internalID: -144683409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10k dice UI_57
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 134
+        width: 6
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6039e6dce76ff4e2387b2c487dd4dcd7
+      internalID: 143599104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10k dice UI_58
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 135
+        width: 35
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c683acbf0192544bb98b742f7c55a30b
+      internalID: -735237380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10k dice UI_59
+      rect:
+        serializedVersion: 2
+        x: 1537
+        y: 140
+        width: 36
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6429a4089d6e64bc783ab6b66116fc8a
+      internalID: -534242966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10k dice UI_60
+      rect:
+        serializedVersion: 2
+        x: 1858
+        y: 134
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8857641f5be3042029617ab318f3800a
+      internalID: 258655150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10k dice UI_61
+      rect:
+        serializedVersion: 2
+        x: 1317
+        y: 51
+        width: 24
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3343f99714e484b54853630d09d28e7e
+      internalID: 216837250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10k dice UI_62
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 59
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1559bfa1c3b5426c8f4217bd7796049
+      internalID: 1293139513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10k dice UI_63
+      rect:
+        serializedVersion: 2
+        x: 1431
+        y: 51
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b164617a87fd44455812a716b143a3e3
+      internalID: -1566931331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10k dice UI_64
+      rect:
+        serializedVersion: 2
+        x: 1537
+        y: 77
+        width: 37
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aacb2954e42704825a3ae01137ab4a98
+      internalID: 1966085494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10k dice UI_65
+      rect:
+        serializedVersion: 2
+        x: 1646
+        y: 53
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82b96d94f93c545a19c4a18d931d7137
+      internalID: 839990603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10k dice UI_66
+      rect:
+        serializedVersion: 2
+        x: 1744
+        y: 45
+        width: 53
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49c3ade975d714f8981d13e0b2eb7b36
+      internalID: 2014678669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10k dice UI_67
+      rect:
+        serializedVersion: 2
+        x: 1857
+        y: 66
+        width: 43
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ff2eab08e8ba4cf1aa44e0fe4f3d495
+      internalID: 783935008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10k dice UI_68
+      rect:
+        serializedVersion: 2
+        x: 1976
+        y: 69
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cd7ffb87aba44cd99493b5f3d548e6f
+      internalID: -1882739324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10k dice UI_69
+      rect:
+        serializedVersion: 2
+        x: 2069
+        y: 51
+        width: 49
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b021af396da324d61bde74479971ccb6
+      internalID: 905582397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10k dice UI_70
+      rect:
+        serializedVersion: 2
+        x: 2191
+        y: 49
+        width: 43
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbea2018a42db4f6baed3b990c7eff2e
+      internalID: 150793249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10k dice UI_71
+      rect:
+        serializedVersion: 2
+        x: 1537
+        y: 66
+        width: 37
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dbf9aba8122a4a9091ff9746b8077b6
+      internalID: -654590032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10k dice UI_72
+      rect:
+        serializedVersion: 2
+        x: 1876
+        y: 51
+        width: 5
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79b24679bfedc4f48b1717990b03b243
+      internalID: -1680061768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10k dice UI_73
+      rect:
+        serializedVersion: 2
+        x: 1892
+        y: 51
+        width: 5
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 310bfbcf0b918414db55126f58520836
+      internalID: -677222805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10k dice UI_74
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 52
+        width: 35
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeb443f095d10474688635ebde868a56
+      internalID: 108547628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10k dice UI_75
+      rect:
+        serializedVersion: 2
+        x: 1537
+        y: 55
+        width: 37
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fceac0ed60ed4ea2aabc87dec7e9dc7
+      internalID: 2103691588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 10k dice UI_76
+      rect:
+        serializedVersion: 2
+        x: 1860
+        y: 51
+        width: 5
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 829b2c009ed4d44a6809dff8d685cd25
+      internalID: -1476475006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      10k dice UI_0: -1432074422
+      10k dice UI_1: -614747941
+      10k dice UI_10: -904225732
+      10k dice UI_11: -106355089
+      10k dice UI_12: 1668765833
+      10k dice UI_13: -1338949724
+      10k dice UI_14: -424349580
+      10k dice UI_15: -853676303
+      10k dice UI_16: 1399094241
+      10k dice UI_17: 743587042
+      10k dice UI_18: -428413732
+      10k dice UI_19: -1773706460
+      10k dice UI_2: -217639195
+      10k dice UI_20: -1337277057
+      10k dice UI_21: -535261864
+      10k dice UI_22: 1061781040
+      10k dice UI_23: -145055756
+      10k dice UI_24: -1070795271
+      10k dice UI_25: -345827180
+      10k dice UI_26: 419926743
+      10k dice UI_27: -1695288926
+      10k dice UI_28: 1909448180
+      10k dice UI_29: 1123529904
+      10k dice UI_3: 47166678
+      10k dice UI_30: -73292883
+      10k dice UI_31: 2014092624
+      10k dice UI_32: -1824915979
+      10k dice UI_33: -1742956151
+      10k dice UI_34: 1443639848
+      10k dice UI_35: -212260242
+      10k dice UI_36: -1358728634
+      10k dice UI_37: -437281716
+      10k dice UI_38: 1622185887
+      10k dice UI_39: -1384830844
+      10k dice UI_4: -718535447
+      10k dice UI_40: -2075355075
+      10k dice UI_41: 1312342709
+      10k dice UI_42: -1826623961
+      10k dice UI_43: 855588868
+      10k dice UI_44: -1104850158
+      10k dice UI_45: -2126690264
+      10k dice UI_46: -194087293
+      10k dice UI_47: 63002973
+      10k dice UI_48: -1451510781
+      10k dice UI_49: 625720634
+      10k dice UI_5: 1525472434
+      10k dice UI_50: -1830303172
+      10k dice UI_51: 1228831340
+      10k dice UI_52: 1311200270
+      10k dice UI_53: 2028674231
+      10k dice UI_54: 547483425
+      10k dice UI_55: 1519219557
+      10k dice UI_56: -144683409
+      10k dice UI_57: 143599104
+      10k dice UI_58: -735237380
+      10k dice UI_59: -534242966
+      10k dice UI_6: 1005759904
+      10k dice UI_60: 258655150
+      10k dice UI_61: 216837250
+      10k dice UI_62: 1293139513
+      10k dice UI_63: -1566931331
+      10k dice UI_64: 1966085494
+      10k dice UI_65: 839990603
+      10k dice UI_66: 2014678669
+      10k dice UI_67: 783935008
+      10k dice UI_68: -1882739324
+      10k dice UI_69: 905582397
+      10k dice UI_7: -1843075646
+      10k dice UI_70: 150793249
+      10k dice UI_71: -654590032
+      10k dice UI_72: -1680061768
+      10k dice UI_73: -677222805
+      10k dice UI_74: 108547628
+      10k dice UI_75: 2103691588
+      10k dice UI_76: -1476475006
+      10k dice UI_8: -1162719947
+      10k dice UI_9: 496171051
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
