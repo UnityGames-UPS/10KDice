@@ -763,6 +763,7 @@ public class GameManager : MonoBehaviour
         ToggleAutobet();
         autoBet_Stop.gameObject.SetActive(false);
         StopCoroutine(autoBetCoroutine);
+        touchDisable.SetActive(false);
 
     }
 

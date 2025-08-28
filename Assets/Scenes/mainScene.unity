@@ -18183,7 +18183,7 @@ MonoBehaviour:
   uiManager: {fileID: 1864349505}
   bonusdata: []
   JSManager: {fileID: 239486152}
-  testToken: 1a3fa731e2d245f9a95a776263a8ec09
+  testToken: fd2bd0d80fa44f59b7e5928273fb919b
   RaycastBlocker: {fileID: 857215987}
 --- !u!4 &1476221454
 Transform:
@@ -25731,9 +25731,9 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 686715429}
-  - {fileID: 1480672087}
   - {fileID: 417360806}
   - {fileID: 1135981782}
+  - {fileID: 1480672087}
   - {fileID: 182905807}
   - {fileID: 317160526}
   - {fileID: 857215988}
