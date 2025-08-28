@@ -8,11 +8,11 @@ using UnityEngine.Networking;
 
 public class UiManager : MonoBehaviour
 {
-   
+
     [SerializeField]
     internal List<float> multiplierObjsYPositions = new List<float>();
     [SerializeField]
-    internal  float multiplierObjHeight;
+    internal float multiplierObjHeight;
     [SerializeField]
     internal float startPosition;
     [SerializeField]
@@ -29,7 +29,7 @@ public class UiManager : MonoBehaviour
     private Slider frequencySlider;
     [SerializeField]
     private SocketIOManager socketManager;
-        
+
 
     [Header("Popus UI")]
     [SerializeField]
@@ -108,6 +108,7 @@ public class UiManager : MonoBehaviour
     bool isExit;
     bool isMusic;
     bool isSound;
+    
 
     private void Start()
     {
@@ -132,14 +133,16 @@ public class UiManager : MonoBehaviour
         if (SoundOff_Object) SoundOff_Object.SetActive(false);
 
         if (GameExit_Button) GameExit_Button.onClick.RemoveAllListeners();
-        if (GameExit_Button) GameExit_Button.onClick.AddListener(delegate {
+        if (GameExit_Button) GameExit_Button.onClick.AddListener(delegate
+        {
             OpenPopup(QuitPopup_Object);
             Debug.Log("Quit event: pressed Big_X button");
 
         });
 
         if (NoQuit_Button) NoQuit_Button.onClick.RemoveAllListeners();
-        if (NoQuit_Button) NoQuit_Button.onClick.AddListener(delegate {
+        if (NoQuit_Button) NoQuit_Button.onClick.AddListener(delegate
+        {
             if (!isExit)
             {
                 ClosePopup(QuitPopup_Object);
@@ -148,7 +151,8 @@ public class UiManager : MonoBehaviour
         });
 
         if (CrossQuit_Button) CrossQuit_Button.onClick.RemoveAllListeners();
-        if (CrossQuit_Button) CrossQuit_Button.onClick.AddListener(delegate {
+        if (CrossQuit_Button) CrossQuit_Button.onClick.AddListener(delegate
+        {
             if (!isExit)
             {
                 ClosePopup(QuitPopup_Object);
@@ -161,7 +165,8 @@ public class UiManager : MonoBehaviour
         if (LBExit_Button) LBExit_Button.onClick.AddListener(delegate { ClosePopup(LBPopup_Object); });
 
         if (YesQuit_Button) YesQuit_Button.onClick.RemoveAllListeners();
-        if (YesQuit_Button) YesQuit_Button.onClick.AddListener(delegate {
+        if (YesQuit_Button) YesQuit_Button.onClick.AddListener(delegate
+        {
             CallOnExitFunction();
             Debug.Log("quit event: pressed YES Button ");
 
@@ -173,7 +178,7 @@ public class UiManager : MonoBehaviour
         if (CloseAD_Button) CloseAD_Button.onClick.RemoveAllListeners();
         if (CloseAD_Button) CloseAD_Button.onClick.AddListener(CallOnExitFunction);
 
-        
+
 
         if (audioController) audioController.ToggleMute(false);
 
@@ -186,12 +191,12 @@ public class UiManager : MonoBehaviour
         if (Music_Button) Music_Button.onClick.RemoveAllListeners();
         if (Music_Button) Music_Button.onClick.AddListener(ToggleMusic);
 
-        if(frequencySlider) frequencySlider.onValueChanged.AddListener(UpdateFrequency);
-        
+        if (frequencySlider) frequencySlider.onValueChanged.AddListener(UpdateFrequency);
+
     }
 
 
-   
+
 
 
     private void UpdateFrequency(float value)
@@ -200,7 +205,7 @@ public class UiManager : MonoBehaviour
         gameManager.autoBetFrequency = 2f - value;
     }
 
-  
+
 
 
     internal void LowBalPopup()
@@ -208,8 +213,7 @@ public class UiManager : MonoBehaviour
         OpenPopup(LBPopup_Object);
     }
 
-
-    internal void DisconnectionPopup(bool isReconnection)
+    internal void DisconnectionPopup()
     {
         if (!isExit)
         {
@@ -217,8 +221,24 @@ public class UiManager : MonoBehaviour
         }
     }
 
+    internal void ReconnectionPopup()
+    {
+        OpenPopup(ReconnectPopup_Object);
+    }
 
-    
+    internal void CheckAndClosePopups()
+    {
+        if (ReconnectPopup_Object.activeInHierarchy)
+        {
+            ClosePopup(ReconnectPopup_Object);
+        }
+        if (DisconnectPopup_Object.activeInHierarchy)
+        {
+            ClosePopup(DisconnectPopup_Object);
+        }
+    }
+
+
 
     internal void ADfunction()
     {
@@ -228,22 +248,23 @@ public class UiManager : MonoBehaviour
 
     private void CallOnExitFunction()
     {
+        StartCoroutine(socketManager.CloseSocket());
         isExit = true;
         audioController.PlayButtonAudio();
-        
+
     }
 
-    
-    
 
-    private void OpenPopup(GameObject Popup)
+
+
+    internal void OpenPopup(GameObject Popup)
     {
         if (audioController) audioController.PlayButtonAudio();
         if (Popup) Popup.SetActive(true);
         if (MainPopup_Object) MainPopup_Object.SetActive(true);
     }
 
-    private void ClosePopup(GameObject Popup)
+    internal void ClosePopup(GameObject Popup)
     {
         if (audioController) audioController.PlayButtonAudio();
         if (Popup) Popup.SetActive(false);
@@ -294,6 +315,6 @@ public class UiManager : MonoBehaviour
         }
     }
 
-   
+
 
 }
