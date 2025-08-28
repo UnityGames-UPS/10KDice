@@ -415,7 +415,7 @@ public class GameManager : MonoBehaviour
         }
         else
         {
-           // isAutoBetPlaying = true;
+            // isAutoBetPlaying = true;
             autoBetCurrentCount = autoBetTotalCount;
             autoBetCoroutine = StartCoroutine(startAutoBet(selectedRange));
         }
@@ -499,6 +499,8 @@ public class GameManager : MonoBehaviour
             blueAutoBet_Button.gameObject.SetActive(true);
             isAutoBet = true;
             isautoplayEnable = true;
+            BlueBet_Button.gameObject.SetActive(false);
+            PurpleBet_Button.gameObject.SetActive(false);
         }
         else
         {
@@ -508,6 +510,8 @@ public class GameManager : MonoBehaviour
             AutoBetCustomize_Button.gameObject.SetActive(false);
             purpleAutoBet_Button.gameObject.SetActive(false);
             blueAutoBet_Button.gameObject.SetActive(false);
+            BlueBet_Button.gameObject.SetActive(true);
+            PurpleBet_Button.gameObject.SetActive(true);
         }
     }
 
@@ -777,6 +781,8 @@ public class GameManager : MonoBehaviour
         PurpleBet_Button.interactable = toggle;
         blueAutoBet_Button.interactable = toggle;
         BlueBet_Button.interactable = toggle;
+        plusslider_Button.interactable = toggle;
+        minusslider_Button.interactable = toggle;
 
 
 
