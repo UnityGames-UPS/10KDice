@@ -459,7 +459,7 @@ public class GameManager : MonoBehaviour
                 winningui_Object.SetActive(true);
                 audioManager.PlayWLAudio("win");
             }
-            toggleUI(true);
+           // toggleUI(true);
             // else
             // {
             //     winningui_Object.SetActive(false);
@@ -474,6 +474,7 @@ public class GameManager : MonoBehaviour
             if (!isAutoBetPlaying)
             {
                 touchDisable.SetActive(false);
+                toggleUI(true);
             }
             // Invoke("DisableWinningUI", 3f);
 
@@ -493,8 +494,8 @@ public class GameManager : MonoBehaviour
         offTogle_Object.SetActive(!isAutoToggleOn);
         if (isAutoToggleOn)
         {
-            autoplayText_Object.SetActive(false);
-            AutoBetCustomize_Button.gameObject.SetActive(true);
+           // autoplayText_Object.SetActive(false);
+           // AutoBetCustomize_Button.gameObject.SetActive(true);
             purpleAutoBet_Button.gameObject.SetActive(true);
             blueAutoBet_Button.gameObject.SetActive(true);
             isAutoBet = true;
@@ -506,12 +507,13 @@ public class GameManager : MonoBehaviour
         {
             isAutoBet = false;
             isautoplayEnable = false;
-            autoplayText_Object.SetActive(true);
-            AutoBetCustomize_Button.gameObject.SetActive(false);
+          //  autoplayText_Object.SetActive(true);
+           // AutoBetCustomize_Button.gameObject.SetActive(false);
             purpleAutoBet_Button.gameObject.SetActive(false);
             blueAutoBet_Button.gameObject.SetActive(false);
             BlueBet_Button.gameObject.SetActive(true);
             PurpleBet_Button.gameObject.SetActive(true);
+            toggleUI(true);
         }
     }
 
@@ -768,13 +770,14 @@ public class GameManager : MonoBehaviour
         autoBet_Stop.gameObject.SetActive(false);
         StopCoroutine(autoBetCoroutine);
         touchDisable.SetActive(false);
+        isAutoBetPlaying = false;
 
     }
 
 
     private void toggleUI(bool toggle)
     {
-
+Debug.Log($"toggleUI ran with {toggle}");
         TBetPlus_Button.interactable = toggle;
         TBetMinus_Button.interactable = toggle;
         purpleAutoBet_Button.interactable = toggle;
