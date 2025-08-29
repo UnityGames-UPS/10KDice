@@ -725,6 +725,7 @@ public class GameManager : MonoBehaviour
         isAutoBetPlaying = true;
         autoBet_Stop.image.sprite = (selectedRange == 0) ? betstop_Sprites[0] : betstop_Sprites[1];
         autoBet_Stop.gameObject.SetActive(true);
+        autoBet_Button.interactable = false;
         if (!isautoplayCountSelected)
         {
             autobetRunning = true;
@@ -771,6 +772,7 @@ public class GameManager : MonoBehaviour
         StopCoroutine(autoBetCoroutine);
         touchDisable.SetActive(false);
         isAutoBetPlaying = false;
+        autoBet_Button.interactable = true;
 
     }
 

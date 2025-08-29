@@ -18228,7 +18228,7 @@ MonoBehaviour:
   uiManager: {fileID: 1864349505}
   bonusdata: []
   JSManager: {fileID: 239486152}
-  testToken: bfa6e1a88b67496aa0bdef5608dc1c87
+  testToken: 2bbe15a48aa74e25bb13f193000a00bb
   RaycastBlocker: {fileID: 857215987}
 --- !u!4 &1476221454
 Transform:
